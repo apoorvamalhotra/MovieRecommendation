@@ -1,0 +1,11 @@
+[flake8]
+exclude = .git,docs,lib
+doctests = True
+max-line-length = 88
+# E501 : line too long
+# D : docstring related warnings
+ignore =
+        E501,
+        D,
+        E731,
+        E203
